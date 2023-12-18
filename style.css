@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+/* 첫 열에 대한 스타일 */
+/* 첫 열과 첫 행에 대한 스타일 */
+
+/* 헤더 */
+
+header {
+  width: 100%;
+}
+.toggleDisplay {
+  width: 100vh;
+}
+.headerModal {
+  width: 100vw;
+  transition: all 1s;
+  transform: translateX(200vh);
+  background-color: #6b9dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.move {
+  transform: rotate(360deg);
+}
+.flex {
+  display: flex;
+}
+.titleName {
+  position: absolute;
+  top: 1%;
+  left: 45%;
+}
+.unset {
+  position: relative;
+}
+.moveModal {
+  transform: translateX(0vh);
+}
+.headerModal ul li {
+  margin: 10px 10px;
+}
+.imgBtn {
+  transition: all 1s;
+  z-index: 9;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  width: 64px;
+  height: 64px;
+}
+button {
+  background-color: rgb(228, 228, 228);
+  border: none;
+  padding: 5px 20px;
+}
+.hideon {
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* 이름 입력 */
+li {
+  list-style: none;
+}
+.nameBox {
+  position: relative;
+}
+
+.listBox {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.nameListStatus {
+  display: flex;
+  justify-content: space-between;
+}
+.tableSection {
+  width: 95%;
+  margin: auto;
+  display: none;
+  height: 80vh;
+  overflow: auto; /* 스크롤바 추가 */
+  max-width: 100%; /* 최대 너비를 100%로 제한 */
+}
+.multiBox {
+  border: 1px solid rgb(145, 145, 145);
+  width: 100%;
+  background-color: #ecf6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-column,
+.first-row {
+  background-color: #89d0ff; /* 다른 색상으로 설정 */
+  min-width: 100px; /* 너비 설정 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+}
+.roundBox {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.multiBoxNull {
+  border: 1px solid rgb(145, 145, 145);
+  width: 100%;
+  background-color: #6b9dff;
+}
